@@ -10,3 +10,6 @@ make
 ./integral --csv --file ../configs/config3.txt > ../results/result3.csv
 ./integral --csv --file ../configs/config4.txt > ../results/result4.csv
 
+cd ..
+python vizualize.py
+
